@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IInteractionProvider
+public interface IInteractable
 {
-    public void ProvideInteraction();
+    public void Interact();
 }

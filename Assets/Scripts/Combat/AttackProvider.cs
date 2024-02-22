@@ -12,11 +12,11 @@ public class AttackProvider : MonoBehaviour, IAttackProvider
     
     public void Attack()
     {
-        Collider2D[] _enemies = Physics2D.OverlapCircleAll(transform.position, _attackRadius, 1 << 6);
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, _attackRadius, 1 << 6);
 
-       for(int i = 0; i < _enemies.Length; i++)
+       for(int i = 0; i < enemies.Length; i++)
        {
-            if(_enemies[i].TryGetComponent<IDamageable>(out IDamageable enemy))
+            if(enemies[i].TryGetComponent<IDamageable>(out IDamageable enemy))
             {
                 enemy.Damage(_damage);
             }

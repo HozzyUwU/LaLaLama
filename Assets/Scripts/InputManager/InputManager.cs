@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,7 @@ public class InputManager : MonoBehaviour
 { 
     private IMovable _playerMovement;
     private IAttackProvider _playerCombat;
+    private IInteractionProvider _interactionProvider;
 
     private PlayerInput _playerInput;
 
@@ -16,6 +18,7 @@ public class InputManager : MonoBehaviour
 
         _playerInput.Movement.Enable();
         _playerInput.Combat.Enable();
+        _playerInput.Interaction.Enable();
 
         if(!TryGetComponent<IMovable>(out _playerMovement))
         {
@@ -27,12 +30,24 @@ public class InputManager : MonoBehaviour
             Debug.LogWarning("There Is No IAttackProvider object");
         }
 
+        if(!TryGetComponent<IInteractionProvider>(out _interactionProvider))
+        {
+            Debug.LogWarning("There Is No IInteractionProvider object");
+        }
+
         _playerInput.Combat.Attack.started += ProvideAttack;
+        _playerInput.Interaction.Interact.started += ProvideInteraction;
     }
+
 
     private void FixedUpdate()
     {
         Movement();
+    }
+    
+    private void ProvideInteraction(UnityEngine.InputSystem.InputAction.CallbackContext context)
+    {
+       _interactionProvider.ProvideInteraction();
     }
 
     private void ProvideAttack(UnityEngine.InputSystem.InputAction.CallbackContext context)
@@ -48,5 +63,6 @@ public class InputManager : MonoBehaviour
     private void OnDestroy() 
     {
         _playerInput.Combat.Attack.started -= ProvideAttack;
+        _playerInput.Interaction.Interact.started -= ProvideInteraction;
     }
 }

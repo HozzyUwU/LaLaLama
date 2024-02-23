@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4803782694110414701}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.7101484, w: 0.7040521}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7101485, w: 0.704052}
   m_LocalPosition: {x: 2.821, y: 1.905, z: 0.05676332}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -315100485
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee,
     type: 3}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inventory: {fileID: 0}
-  _item: 
+  _item: test
 --- !u!70 &4501934992869735033
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

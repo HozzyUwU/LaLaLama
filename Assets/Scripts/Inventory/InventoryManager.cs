@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    public event Action OnUpdateInventory;
+    public static event Action<Stack<string>> OnUpdateInventory;
 
     [Header("References")]
     [Space]
@@ -17,7 +17,7 @@ public class InventoryManager : MonoBehaviour
     {
         _items.Push(item);
 
-        OnUpdateInventory?.Invoke();
+        OnUpdateInventory?.Invoke(_items);
     }
 
     public void DropItem()
@@ -29,13 +29,15 @@ public class InventoryManager : MonoBehaviour
             Instantiate(_itemPrefab, transform.position + Vector3.right * 2.0f, Quaternion.identity);
         }
 
-        OnUpdateInventory?.Invoke();
+        OnUpdateInventory?.Invoke(_items);
     }
 
     public string GetItem()
     {
         if(_items.Count < 1) return "";
 
-        return _items.Pop();
+        string item = _items.Pop();
+        OnUpdateInventory?.Invoke(_items);
+        return item;
     }
 }

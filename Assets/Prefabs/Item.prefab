@@ -176,8 +176,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -372,7 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb8339d95d1c35b4c8633ac090c34872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _word: word
+  _word: "\u0437\u0430\u0431\u043E\u0442\u043B\u0438\u0432\u0430\u044F"
   _text: {fileID: 5573352700736552506}
 --- !u!50 &144242679291171866
 Rigidbody2D:

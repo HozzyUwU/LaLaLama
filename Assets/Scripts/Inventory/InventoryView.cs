@@ -31,4 +31,9 @@ public class InventoryView : MonoBehaviour
             Instantiate(_itemPrefab, _holder).GetComponentInChildren<TextMeshProUGUI>().text = words.Pop();
         }
     }
+
+    private void OnDestroy() 
+    {
+        InventoryManager.OnUpdateInventory -= UpdateView;  
+    }
 }

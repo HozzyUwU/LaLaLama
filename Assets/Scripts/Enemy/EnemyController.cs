@@ -6,10 +6,15 @@ public class EnemyController : MonoBehaviour, IDamageable
 {
     public byte Health => _currentHealth;
 
+    [Header("References")]
+    [Space]
+    [SerializeField] private Item _itemPrefab;
+
     [Header("Properties")]
     [Space]
     [Range(0, 255)]
-    [SerializeField] byte _maxHealth;
+    [SerializeField] private byte _maxHealth;
+    [SerializeField] private string _itemWord;
     
     byte _currentHealth;
 
@@ -28,6 +33,10 @@ public class EnemyController : MonoBehaviour, IDamageable
     private byte Death()
     {
         Debug.Log($"Dead!");
+
+        _itemPrefab.ItemName = _itemWord;
+        Instantiate(_itemPrefab, transform.position, Quaternion.identity);
+
         gameObject.SetActive(false);
         return 0;
     }

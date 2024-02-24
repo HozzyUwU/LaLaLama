@@ -37,4 +37,11 @@ public class AltarView : MonoBehaviour
     {
         _textUI.text = _textUI.text = $"Ты {(items.Count >= 1 ? items[0] : "...")},  {(items.Count >= 2 ? items[1] : "...")},  {(items.Count >= 3 ? items[2] : "...")}";
     }
+
+    private void OnDestroy() 
+    {
+        AltarController.OnAltarUpdate -= UpdateView;    
+        AltarController.OnAltarLose -= DropItems;
+        AltarController.OnAltarWin -= WinLogic;    
+    }
 }

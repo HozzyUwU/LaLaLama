@@ -60,5 +60,6 @@ public class MenuController : MonoBehaviour
     private void OnDestroy() 
     {
         AltarController.OnAltarWin -= ProvideWinWindow;
+        AltarController.OnPlayerLose -= ProvideLoseWindow;
     }
 }

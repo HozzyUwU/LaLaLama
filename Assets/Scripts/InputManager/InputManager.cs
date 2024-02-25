@@ -46,8 +46,6 @@ public class InputManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(_menu.IsPause) return;
-
         Movement();
     }
     
@@ -67,7 +65,13 @@ public class InputManager : MonoBehaviour
 
     private void Movement()
     {
-        _playerMovement.Move(_playerInput.Movement.MovementDirection.ReadValue<Vector2>());
+        if(_menu.IsPause)
+        {
+            _playerMovement.Move(Vector2.zero);
+        }else
+        {
+            _playerMovement.Move(_playerInput.Movement.MovementDirection.ReadValue<Vector2>());
+        }
     }
 
     private void OnDestroy() 

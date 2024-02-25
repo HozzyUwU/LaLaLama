@@ -24,6 +24,7 @@ public class InventoryManager : MonoBehaviour
     {
         if(_items.Count > 0)
         {
+            if(Physics2D.OverlapCircle(transform.position + Vector3.right * 2.0f, 0.5f) != null) return;
             string item = _items.Pop();
             _itemPrefab.ItemName = item;
             Instantiate(_itemPrefab, transform.position + Vector3.right * 2.0f, Quaternion.identity);

@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: 84daefa1c1560734db60808116fd2acd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: book open idle_Clip
+    second: {fileID: 7400000, guid: 57ad3bd9297c56f469ea925d307e2694, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 50
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638444586402209629
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: book open idle_Frame_0
+    originalName: 
+    pivot: {x: 0.45762712, y: -0.09876543}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 238
+      y: 347
+      width: 59
+      height: 81
+    spriteID: eff2a3d26f434184991b2d05e5af85de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 238, y: 347}
+  - name: book open idle_Frame_1
+    originalName: 
+    pivot: {x: 0.47457626, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 305
+      y: 347
+      width: 59
+      height: 81
+    spriteID: 18bd17cfed522f94cb717e4e287e1ad5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 305, y: 347}
+  - name: book open idle_Frame_2
+    originalName: 
+    pivot: {x: 0.4, y: -0.024691358}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 408
+      y: 109
+      width: 70
+      height: 81
+    spriteID: b6135bc19d23bae4ebe9b667ad2e06e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 408, y: 109}
+  - name: book open idle_Frame_3
+    originalName: 
+    pivot: {x: 0.4, y: -0.049382716}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 347
+      width: 70
+      height: 81
+    spriteID: f36432402c796fb4191df4e7b32a44c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 347}
+  - name: book open idle_Frame_4
+    originalName: 
+    pivot: {x: 0.3857143, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 347
+      width: 70
+      height: 81
+    spriteID: 5c921a7d221b2a64f8e311f43391b209
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 347}
+  - name: book open idle_Frame_5
+    originalName: 
+    pivot: {x: 0.3857143, y: -0.049382716}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 347
+      width: 70
+      height: 81
+    spriteID: c3f180f659211ad48ac925131520564f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 347}
+  - name: book open idle_Frame_6
+    originalName: 
+    pivot: {x: 0.37142858, y: -0.05952381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 330
+      y: 109
+      width: 70
+      height: 84
+    spriteID: 9f13abba685779f4e8c4583d3d62e3ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 330, y: 109}
+  - name: book open idle_Frame_7
+    originalName: 
+    pivot: {x: 0.37142858, y: -0.022988506}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 109
+      width: 70
+      height: 87
+    spriteID: c0ee69f8eb404ef439164c4d4a02be2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 109}
+  - name: book open idle_Frame_8
+    originalName: 
+    pivot: {x: 0.37142858, y: -0.010989011}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 394
+      y: 214
+      width: 70
+      height: 91
+    spriteID: 0bd82cb299ea2194ca5d5b65008fa2a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 394, y: 214}
+  - name: book open idle_Frame_9
+    originalName: 
+    pivot: {x: 0.37142858, y: -0.01980198}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 214
+      width: 70
+      height: 101
+    spriteID: 4686973a43d27a5408c199dfa063f93f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 214}
+  - name: book open idle_Frame_10
+    originalName: 
+    pivot: {x: 0.2857143, y: -0.028846156}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 238
+      y: 214
+      width: 70
+      height: 104
+    spriteID: 30b240ad327f3ba42975ce70224c4ee3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 238, y: 214}
+  - name: book open idle_Frame_11
+    originalName: 
+    pivot: {x: 0.2, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 214
+      width: 70
+      height: 112
+    spriteID: 361088fe249624244a5cf3b2883f29d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 214}
+  - name: book open idle_Frame_12
+    originalName: 
+    pivot: {x: 0.15714286, y: -0.008264462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 214
+      width: 70
+      height: 121
+    spriteID: 5ddec11d42b70264a9cd9e9206b1bd2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 214}
+  - name: book open idle_Frame_13
+    originalName: 
+    pivot: {x: 0.1, y: -0.008}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 214
+      width: 70
+      height: 125
+    spriteID: 3332470cd8407c24683e6db3c5c65303
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 214}
+  - name: book open idle_Frame_14
+    originalName: 
+    pivot: {x: 0.45689654, y: -0.05154639}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 116
+      height: 97
+    spriteID: 3105c528984ee71489c3f5dfe3798760
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: book open idle_Frame_15
+    originalName: 
+    pivot: {x: 0.47413793, y: -0.010309278}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 4
+      width: 116
+      height: 97
+    spriteID: 97a9e4f14bf4e5b4594afcd018ff1f27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 128, y: 4}
+  - name: book open idle_Frame_16
+    originalName: 
+    pivot: {x: 0.46551725, y: -0.020618556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 4
+      width: 116
+      height: 97
+    spriteID: ce5ccfbfe37334e4f82689a4d2132c0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 4}
+  - name: book open idle_Frame_17
+    originalName: 
+    pivot: {x: 0.45689654, y: -0.05154639}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 376
+      y: 4
+      width: 116
+      height: 97
+    spriteID: 48e15c1b97a6ad94499ed22a74706b37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 376, y: 4}
+  - name: book open idle_Frame_18
+    originalName: 
+    pivot: {x: 0.49137932, y: -0.082474224}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 109
+      width: 116
+      height: 97
+    spriteID: 0d5deb7db974a724a8e69ca121cdf9d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 109}
+  - name: book open idle_Frame_19
+    originalName: 
+    pivot: {x: 0.45689654, y: -0.072164945}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 109
+      width: 116
+      height: 97
+    spriteID: 29917144b03a8ed46add919901096304
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 128, y: 109}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1327622913
+    name: book open idle
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: book open idle_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 37
+        y: 8
+        width: 59
+        height: 81
+      spriteId: eff2a3d26f434184991b2d05e5af85de
+    - name: book open idle_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 36
+        y: 3
+        width: 59
+        height: 81
+      spriteId: 18bd17cfed522f94cb717e4e287e1ad5
+    - name: book open idle_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 36
+        y: 2
+        width: 70
+        height: 81
+      spriteId: b6135bc19d23bae4ebe9b667ad2e06e3
+    - name: book open idle_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 36
+        y: 4
+        width: 70
+        height: 81
+      spriteId: f36432402c796fb4191df4e7b32a44c4
+    - name: book open idle_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 37
+        y: 3
+        width: 70
+        height: 81
+      spriteId: 5c921a7d221b2a64f8e311f43391b209
+    - name: book open idle_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 37
+        y: 4
+        width: 70
+        height: 81
+      spriteId: c3f180f659211ad48ac925131520564f
+    - name: book open idle_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 38
+        y: 5
+        width: 70
+        height: 84
+      spriteId: 9f13abba685779f4e8c4583d3d62e3ad
+    - name: book open idle_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 38
+        y: 2
+        width: 70
+        height: 87
+      spriteId: c0ee69f8eb404ef439164c4d4a02be2f
+    - name: book open idle_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 38
+        y: 1
+        width: 70
+        height: 91
+      spriteId: 0bd82cb299ea2194ca5d5b65008fa2a1
+    - name: book open idle_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 38
+        y: 2
+        width: 70
+        height: 101
+      spriteId: 4686973a43d27a5408c199dfa063f93f
+    - name: book open idle_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 44
+        y: 3
+        width: 70
+        height: 104
+      spriteId: 30b240ad327f3ba42975ce70224c4ee3
+    - name: book open idle_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 50
+        y: 4
+        width: 70
+        height: 112
+      spriteId: 361088fe249624244a5cf3b2883f29d2
+    - name: book open idle_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 53
+        y: 1
+        width: 70
+        height: 121
+      spriteId: 5ddec11d42b70264a9cd9e9206b1bd2b
+    - name: book open idle_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 57
+        y: 1
+        width: 70
+        height: 125
+      spriteId: 3332470cd8407c24683e6db3c5c65303
+    - name: book open idle_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 11
+        y: 5
+        width: 116
+        height: 97
+      spriteId: 3105c528984ee71489c3f5dfe3798760
+    - name: book open idle_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 9
+        y: 1
+        width: 116
+        height: 97
+      spriteId: 97a9e4f14bf4e5b4594afcd018ff1f27
+    - name: book open idle_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 10
+        y: 2
+        width: 116
+        height: 97
+      spriteId: ce5ccfbfe37334e4f82689a4d2132c0a
+    - name: book open idle_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 11
+        y: 5
+        width: 116
+        height: 97
+      spriteId: 48e15c1b97a6ad94499ed22a74706b37
+    - name: book open idle_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 7
+        y: 8
+        width: 116
+        height: 97
+      spriteId: 0d5deb7db974a724a8e69ca121cdf9d8
+    - name: book open idle_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 11
+        y: 7
+        width: 116
+        height: 97
+      spriteId: 29917144b03a8ed46add919901096304
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

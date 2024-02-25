@@ -11,6 +11,8 @@ public class InventoryView : MonoBehaviour
     [Space]
     [SerializeField] private GameObject _itemPrefab;
     [SerializeField] private Transform _holder;
+    [SerializeField] private Animator _animator;
+
 
     private void Awake() 
     {
@@ -19,6 +21,8 @@ public class InventoryView : MonoBehaviour
 
     private void UpdateView(Stack<string> items)
     {
+        ChangeAnimState(items.Count > 0 ? true : false);
+
         foreach(Transform child in _holder)
         {
             Destroy(child.gameObject);
@@ -30,6 +34,11 @@ public class InventoryView : MonoBehaviour
         {
             Instantiate(_itemPrefab, _holder).GetComponentInChildren<TextMeshProUGUI>().text = words.Pop();
         }
+    }
+
+    private void ChangeAnimState(bool state)
+    {
+        _animator.SetBool("IsBurden", state);
     }
 
     private void OnDestroy() 

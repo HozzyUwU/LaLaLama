@@ -30,6 +30,8 @@ public class CameraController : MonoBehaviour
             Time.fixedDeltaTime
         );
 
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -33.0f, 33.0f), Mathf.Clamp(transform.position.y, -14.0f, 14.0f), transform.position.z);
+
         Camera.main.orthographicSize = _height;
     }
 }
